@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nifty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nifty-gui.lessvoid.com/nifty-gui" xsi:schemaLocation="https://raw.githubusercontent.com/void256/nifty-gui/1.4/nifty-core/src/main/resources/nifty.xsd https://raw.githubusercontent.com/void256/nifty-gui/1.4/nifty-core/src/main/resources/nifty.xsd">
+    <screen id="Test">
+        <layer id="GLayer0" childLayout="center">
+            <panel childLayout="vertical">
+                <!--you should pass the ttf file path that ENDs with .ttf in the small letter form. Write after the path the font size then the font style (see TrueTypeFont.java for style values). All the parameters are required-->
+                <control name="label" id="GLabel0" color="#0000ff" text="hello" font="Interface/arial.ttf501"/>
+                <control name="label" id="GLabel0" color="#0000ff" text="مرحبا" font="Interface/arial.ttf501"/>
+            </panel>
+        </layer>
+    </screen>
+</nifty>
